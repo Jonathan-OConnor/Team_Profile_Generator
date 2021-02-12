@@ -6,7 +6,7 @@ class Intern extends Employee {
         super(name, id, email)
         this.school = school
     }
-    getGithub(){
+    getSchool(){
         return this.school
     }    
     getRole(){
@@ -14,4 +14,4 @@ class Intern extends Employee {
     }
 }
 
-module.exports = Engineer
+module.exports = Intern
